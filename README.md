@@ -20,3 +20,7 @@ Configurare il file `.csproj` con il riferimento alla libreria aggiungendo la se
   </ItemGroup>
 </Project>
 ```
+
+### Funzionamento
+
+![image](https://csharpcorner-mindcrackerinc.netdna-ssl.com/article/tips-to-write-clean-c-sharp-code/Images/Latest1.gif)
