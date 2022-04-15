@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## SAMWebApiSdk
 
-You can use the [editor on GitHub](https://github.com/vferri-csw/vferri-csw.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Interfaccia facilitata alla Web API di [Centro Software](https://www.centrosoftware.com/) per il prodotto SAM **ERP2** `6.0`.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Si offre un’esperienza di sviluppo guidata che velocizza i tempi di realizzazione di un software integrato con SAM ERP2, riducendo la probabilità di errori di sintassi rispetto all’utilizzo diretto tramite chiamate HTTP della Web API.
 
-### Markdown
+### Installabile come pacchetto NuGet
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Configurare il file `.csproj` con il riferimento alla libreria aggiungendo la sezione `ItemGroup` e indicando l'ultima versione disponibile della libreria SamWebApiSdk (l'ultima versione è identificabile consultando i packages presenti in questo repository)``
 
-```markdown
-Syntax highlighted code block
+```c#
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+  <ItemGroup>
+    <PackageReference Include="SamWebApiSdk" Version="1.0.0-alpha10" />
+  </ItemGroup>
+</Project>
 ```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vferri-csw/vferri-csw.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
