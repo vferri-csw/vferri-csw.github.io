@@ -2,4 +2,4 @@
 
 ## Development tools
 
-- [SAMWebApiSdk](test.md)
+- [SAMWebApiSdk](samwebapisdk.md)
