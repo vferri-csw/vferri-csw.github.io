@@ -1,7 +1,7 @@
 ## SAMWebApiSdk
 ![image](https://user-images.githubusercontent.com/51919683/163560020-03da04e5-1a5a-4e46-8626-3a5900837a7f.png)
 
-Interfaccia facilitata alla Web API di [Centro Software](https://www.centrosoftware.com/) per il prodotto SAM **ERP2** `6.0`.
+Interfaccia facilitata alla Web API di [Centro Software](https://www.centrosoftware.com/) per il prodotto **SAM ERP2** versione `6.0`.
 
 Si offre un’esperienza di sviluppo guidata che velocizza i tempi di realizzazione di un software integrato con SAM ERP2, riducendo la probabilità di errori di sintassi rispetto all’utilizzo diretto tramite chiamate HTTP della Web API.
 
