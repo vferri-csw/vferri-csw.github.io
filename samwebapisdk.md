@@ -7,9 +7,11 @@ Interfaccia facilitata alla web API di [Centro Software](https://www.centrosoftw
 
 Offre un’**esperienza** di sviluppo **guidata** che **velocizza** i tempi di realizzazione di un software integrato con SAM ERP2, riducendo la probabilità di errori di sintassi rispetto all’utilizzo diretto tramite chiamate HTTP della Web API.
 
-### Installabile come pacchetto NuGet
+### Utilizzo
 
-Configurare il file `.csproj` con il riferimento alla libreria aggiungendo la sezione `ItemGroup` e indicando l'ultima versione disponibile della libreria SamWebApiSdk (l'ultima versione è identificabile consultando i packages presenti in questo repository)``
+Installabile come pacchetto NuGet modificando il proprio file di progetto `.csproj` aggiungendo la sezione `ItemGroup` con il riferimento alla libreria indicandone l'ultima versione disponibile [^2]
+
+[^2]: IIdentificabile consultando i packages presenti all'interno del repository del prodotto.
 
 ```c#
 <Project Sdk="Microsoft.NET.Sdk">
